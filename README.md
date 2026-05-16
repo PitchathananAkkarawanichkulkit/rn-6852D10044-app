@@ -24,5 +24,5 @@
 
 | หน้า Splash Screen | หน้าคำนวณค่าโดยสาร |
 | :---: | :---: |
-| <img width="200"  alt="6084_0" src="https://github.com/user-attachments/assets/ab2ce1e1-bbf1-4fc2-9f8d-eefdb63a2c5c" />| <img width="200"  alt="6085_0" src="https://github.com/user-attachments/assets/d0bda075-bae2-4596-bbb9-3295da1293fc" /> |
+| <img width="200"  alt="6086" src="https://github.com/user-attachments/assets/2cd07452-6ef2-49e5-a824-0780e916858a" />| <img width="200"  alt="6085_0" src="https://github.com/user-attachments/assets/d0bda075-bae2-4596-bbb9-3295da1293fc" /> |
 
