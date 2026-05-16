@@ -25,7 +25,7 @@ export default function Index() {
       />
       <Image source={myimage} style={styles.myimage} />
       <Text>พัฒนาโดย</Text>
-      <Text>6852ฏ10044 พิชญ์ธนัน อัครวาณิชกุลกิจ</Text>
+      <Text>6852D10044 พิชญ์ธนัน อัครวาณิชกุลกิจ</Text>
 
     </View>
   );
