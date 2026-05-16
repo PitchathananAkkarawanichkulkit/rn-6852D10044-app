@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+# 🚕 Taxi Fare Calculator (แอปพลิเคชันคำนวณค่าโดยสารแท็กซี่)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+แอปพลิเคชันสำหรับคำนวณอัตราค่าโดยสารแท็กซี่มิเตอร์ตามระยะทางและเวลารถติด อ้างอิงตามเรทราคามาตรฐานแบบขั้นบันได พัฒนาด้วย **React Native (Expo)**
 
-## Get started
+## ✨ ฟีเจอร์หลัก (Features)
+-  **คำนวณค่าโดยสารแบบขั้นบันได** คำนวณราคาตามระยะทางจริง (กิโลเมตร) 
+-  **คำนวณเวลารถติด** รองรับการบวกเพิ่มค่าโดยสารกรณีรถติด (นาทีละ 3 บาท)
+-  **ระบบตรวจสอบข้อมูล (UI Validation)** มีการแจ้งเตือน (Alert) หากผู้ใช้ลืมกรอกข้อมูลระยะทางหรือเวลา
+-  **ปุ่มเคลียร์ข้อมูล** สามารถกดปุ่ม "ยกเลิก" เพื่อล้างค่าทั้งหมดและเริ่มต้นคำนวณใหม่ได้ทันที
+-  **UI/UX สวยงามใช้งานง่าย** ออกแบบหน้าจอให้สะอาดตา พร้อมหน้า Splash Screen แนะนำตัวผู้พัฒนา
+-  **รองรับภาษาไทยสมบูรณ์** ใช้ Google Fonts (ฟอนต์ Prompt) เพื่อความสวยงามและอ่านง่าย
 
-1. Install dependencies
+## 📊 สูตรการคำนวณที่ใช้ในแอปพลิเคชัน
+- **กิโลเมตรแรก:** 35 บาท
+- **กม.ที่ 2 - 10:** กิโลเมตรละ 6.50 บาท
+- **กม.ที่ 11 - 20:** กิโลเมตรละ 7.00 บาท
+- **กม.ที่ 21 - 40:** กิโลเมตรละ 8.00 บาท
+- **กม.ที่ 41 - 60:** กิโลเมตรละ 8.50 บาท
+- **กม.ที่ 61 - 80:** กิโลเมตรละ 9.00 บาท
+- **กม.ที่ 81 ขึ้นไป:** กิโลเมตรละ 10.50 บาท
+- **กรณีรถติด:** คิดนาทีละ 3 บาท
 
-   ```bash
-   npm install
-   ```
+## 📱 ภาพหน้าจอ (Screenshots)
 
-2. Start the app
+| หน้า Splash Screen | หน้าคำนวณค่าโดยสาร |
+| :---: | :---: |
+| <img width="200"  alt="6084_0" src="https://github.com/user-attachments/assets/ab2ce1e1-bbf1-4fc2-9f8d-eefdb63a2c5c" />| <img width="200"  alt="6085_0" src="https://github.com/user-attachments/assets/d0bda075-bae2-4596-bbb9-3295da1293fc" /> |
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
